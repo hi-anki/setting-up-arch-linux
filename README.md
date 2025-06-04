@@ -2,6 +2,7 @@
   - To view current settings, use `localectl status`
   - To set locale, use `localectl set-locale LANG=en_US.UTF-8`
   - To set console keyboard layout, use `localectl set-keymap us`
+  - To set the keyboard layout, `loadkeys us`
  
 - Setting up locales is important for proper language recognition.
 - Setting up console keyboard layout is necessary to bring the interpretation of our keybinding by the console on the same page.
