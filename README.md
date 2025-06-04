@@ -10,3 +10,7 @@
  
 - Therefore, setting up the locales and console keyboard mapping is the first step to ensure that our input is interpreted exactly as we think.
 
+------------------
+
+- Since the font is a little low in size, to increase it, we use setfont as, `setfont ter-132b`
+
