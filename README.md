@@ -31,3 +31,34 @@
 
 ------------------
 
+- Use `ip link` to list all the network interfaces available.
+  - I got `enp0s3`. Make a note of it.
+  - Also, make sure it is enabled. Look for `state UP`
+- For a variety of reasons, the wireless card (WWAN and WLAN) might be blocked by rfkill.
+- `rfkill` is a Linux subsystem and command-line tool used to query and control the wireless devices' power state.
+- `enp0s3` means ethernet on pci bus 0, slot 3.
+- But we need something like `wlp2s0` or `wwp0s20u2` for making wireless connections.
+- But that's not a problem as our ethernet is working fine.
+- This problem is arising because vbox only exposes ethernet. To use WIFI, we need dedicate solutions. Lets keep them aside for now.
+- Test by `ping google.com`
+
+------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
