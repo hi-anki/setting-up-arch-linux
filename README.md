@@ -44,7 +44,12 @@
 
 ------------------
 
-
+- Now its time to partition the disks.
+- First check all the available block devices, `lsblk` or `fdisk -l`
+- loop0 and sr0 can be ignored. What concerns us is `/dev/sda`
+- Partitioning means splitting your physical block device (like /dev/sda) into logical sections (partitions). Each partition acts like an independent disk that can hold a file system.
+- In monolithic layout, everything lives at /
+- In split layout, the OS lives at /, home lives inside /home, and boot files in /boot. It provides better isolation and clarity.
 
 
 
